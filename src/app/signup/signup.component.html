@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sign Up Form</title>
+            <link rel="stylesheet" href="/src/app/signup/signup.component.css">
+    </head>
+    <body>
+            <div class="main-wrap">
+                <div class="form-wrap">
+                    <h1>Company <span> Registration</span></h1>
+                       <h6>Welcome to our family.</h6>
+                    <form class="form">
+                          <input type="text"
+                                 [(ngModel)]="fname"                             
+                                 name="fname"
+                                 id="fname" placeholder="First Name"
+                           >    
+                    
+                           <input type="text"                                 
+                                  [(ngModel)]="lname"
+                                  name="lname" 
+                                  id="lname" 
+                                  placeholder="Last Name"
+                            >
+                    
+                            <input type="text" 
+                            [(ngModel)]="compname"
+                                   name="compname" 
+                                   id="compname" 
+                                   placeholder="Company Name" 
+                            >
+                    
+                            <input type="email" 
+                            [(ngModel)]="email"
+                                   name="email" 
+                                   id="email" 
+                                   placeholder="abc@gmail.com" 
+                                   inputmode="email">
+                    
+                            <input type="password"
+                                [(ngModel)]="paswd"  
+                                   name="paswd" 
+                                   id="pass" 
+                                   placeholder="Password" 
+                            >
+                    
+                            <input type="password" 
+                                   name="cpass" 
+                                   id="cpass"
+
+                                   placeholder="Confirm Password"
+                            >
+               
+                    <button type="submit" (click)="RegEmp()" class="form-btn" routerLink="/login" >Register</button>
+                    <button type="submit" class="form-lbtn" routerLink="/login">Log In</button>
+                </form>
+
+            </div>
+        </div>
+    </body>
+</html>

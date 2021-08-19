@@ -1,0 +1,90 @@
+<header>
+  <!--NavBar Start-->
+  <nav class="navbar navbar-expand-lg navbar-white bg-dark">
+    <a class="navbar-brand" href="">Ash</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/login">Login <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/signup">SignUp</a>
+        </li>
+        <li class="="nav-item>
+          <a class="nav-link" routerLink="/members">Our Members</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about">About</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!--NavBar End-->
+
+  <!-- Background image 
+  <div
+    class="p-5 text-center bg-image"
+    style="
+      background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.jpg');
+      height: 580px;
+    ">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">Welcome To Our Website.</h1>
+          <h4 class="mb-3">created by Mr. Rohit Bhat.</h4>
+          <a class="btn btn-outline-light btn-lg" routerLink="/signup" role="button"
+            >SignUp</a>
+        </div>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+   
+  </div>  
+   Background image -->
+
+</header>
+<div style="background: darkgray;">
+        <router-outlet></router-outlet> 
+</div>
+<!-- 
+  <nav class="navbar navbar-expand-sm bg-light navbar-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <button routerLink="members"
+        class="m-1 btn btn-light btn-outline-primary" button>Member/Userx</button>
+      </li>
+    </ul>
+  </nav>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="bg-light text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright:
+    <a class="text-dark" href="/src/app/about/about.component.html">Rohit Bhat.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>

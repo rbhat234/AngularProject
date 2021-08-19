@@ -1,0 +1,128 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.main-wrap{
+    position: relative;
+    width: 100%;
+ 
+}
+
+.form-wrap{
+    margin-top: 2%;
+    
+    margin-right: 60%;
+    margin-left: 40%;
+    margin-bottom: 10%;
+    border-radius: 11px;
+    padding: 80px 25px;
+    background-color:transparent;
+    width: 450px;
+    height: auto;
+    /*box-shadow: 0.1rem 3rem rgba(0,0,0,0,527) !important;*/
+}
+
+.form-wrap h1{
+    color: white;
+}
+
+.form-wrap h6{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form-wrap span{
+    color: white;
+}
+
+.form input{
+    margin: 8px 0px;
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding-left: 14px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(206, 205, 214, 0.952);
+}
+
+/*.form input:{
+    border: none;
+    outline: none;
+}*/
+
+.form input ::placeholder{
+    padding-left: 4;
+}
+
+.form-btn{
+    width: 100;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 16px;
+    border: 0.1rem solid rgb(0,0,0);
+    color: rgb(0, 0, 0);
+    background-color: darkgray;
+}
+
+.form-btn:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.form-lbtn{
+    align-self: center;
+    width: 100;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-top: 16px;
+    border: 0.1rem solid rgb(0,0,0);
+    color: rgb(0, 0, 0);
+    background-color:darkgrey;
+}
+
+.form-lbtn:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+
+
+/*  <span class="sign-up-with"> Or sign up with </span>        
+        cut and paste above line in html and then remove comment tag and leave below code as it is.
+    .sign-up-with{
+    padding: 40px 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: rgb(206,202,202);
+}*/
+
+/*.social-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-logo{
+    
+    background-color: #fff;
+    width: 30px;
+    height: 10px;
+    margin: 25px 30px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.social-logo a img{
+    height: 30px;
+    width: 30px;
+}*/

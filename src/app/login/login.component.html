@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sign Up Form</title>
+
+            <link rel="stylesheet" href="/src/app/login/login.component.css">
+
+    </head>
+    <body>
+        <div class="main-wrap">      
+            <div class="form-wrap">
+                
+                <h1>Company <span> Login</span></h1>
+                <h6>Welcome to our family.</h6>
+                
+                
+                <form class= "form">
+                    
+                    <input type="email" name="email" id="email" placeholder="abc@gmail.com" inputmode="email"
+                    required minlength="8"> 
+
+                    <input type="password" class="form-control" FormControlName="pass" name="pass" id="pass" placeholder="Password"
+                    required minlength="8" >
+            
+                    
+                    <button type="submit" class="form-btn" routerLink="/signup">Register</button>
+                    <button type="submit" (click)="siginUser()" class="form-lbtn" routerLink="/members">Log In</button>
+                    
+                     
+                </form>
+
+            </div>
+
+                
+                    
+              </div>
+        
+        
+    </body>
+</html>
